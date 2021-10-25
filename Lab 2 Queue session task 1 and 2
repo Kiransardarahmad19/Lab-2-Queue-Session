@@ -1,0 +1,58 @@
+ 
+ #Task 1 
+ 
+import numpy as np #importing numpy array 
+class Q:
+  def _init_ (self):
+    self.list=np.arrange(3)
+  def enqueue(self, data):
+    abc=np.append(self.list, data)
+    return abc
+  def dequeue(self):
+    ghi=np.delete((self.list,1))
+    return ghi
+  def frontofqueue(self):
+    jkl=self.list[0]
+    return jkl
+  def rearofqueue(self):
+    ijk=self.list[-1]
+    return ijk
+  def lengthofqueue(self):
+    lmn=len(self.list)
+    return lmn
+  def sizeofqueue(self):
+    spq=(len(self.list>5))
+    return spq
+  def emptyqueue(self):
+    xyz=(len(selflist)==0)
+    return xyz
+    
+   
+   #Task 2 
+ from collections import deque
+class Q:
+  def __init__(main):
+    main.queue=deque([9,4,5,3,7,])
+  def enqueue(main,val):
+     avalue=deque.append(main.queue,val)
+     return avalue
+  def dequeue(main):
+    secondvalue=deque.pop(main.queue,1)
+    return secondvalue
+  def rear(main):
+    return main.queue[-1]
+  def front(main):
+    return main.queue[0]
+  def enqueueleft(main):
+    somevalue=deque.appendleft(main.queue,val)
+    return somevalue
+  def dequeueright(main):
+    something=deque.popleft(main.queue)
+    return something
+def main():
+  firstqueue=Queue() 
+  firstqueue.enqueue(98)
+  firstqueue.enqueue(45)
+  print(firstqueue)
+  firstqueue.deque()
+  print(queue1)
