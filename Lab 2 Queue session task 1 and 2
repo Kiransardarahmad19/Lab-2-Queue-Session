@@ -30,29 +30,17 @@ class Q:
    
    #Task 2 
  from collections import deque
-class Q:
-  def __init__(main):
-    main.queue=deque([9,4,5,3,7,])
-  def enqueue(main,val):
-     avalue=deque.append(main.queue,val)
-     return avalue
-  def dequeue(main):
-    secondvalue=deque.pop(main.queue,1)
-    return secondvalue
-  def rear(main):
-    return main.queue[-1]
-  def front(main):
-    return main.queue[0]
-  def enqueueleft(main):
-    somevalue=deque.appendleft(main.queue,val)
-    return somevalue
-  def dequeueright(main):
-    something=deque.popleft(main.queue)
-    return something
-def main():
-  firstqueue=Queue() 
-  firstqueue.enqueue(98)
-  firstqueue.enqueue(45)
-  print(firstqueue)
-  firstqueue.deque()
-  print(queue1)
+value=deque()
+value.append(135)
+value.append(2345)
+value.append(334)
+value.append(45)
+print(value)
+value.appendleft(6)
+print(value)
+value.pop
+print(value)
+value.popleft()
+print(value)
+value.clear()
+print(value)
